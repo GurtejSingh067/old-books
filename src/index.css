@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@import "tailwindcss";
+
+html {
+  font-family: "Righteous", cursive;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(15deg,#E9E9F3, #B0BBCF);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
