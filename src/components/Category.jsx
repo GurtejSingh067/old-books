@@ -6,13 +6,13 @@ const Category = ({ name }) => {
         <div className='flex-col'>
             <div className='text-2xl'>{name}</div>
             <div className='flex gap-1 overflow-auto no-scrollbar'>
-                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"React JS"} />
-                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"C Language"} />
-                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"Mathematics"} />
-                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"English"} />
-                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"Fundamental Of Information Technology"} />
-                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"English"} />
-                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"English"} />
+                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"React JS"} prize={200} />
+                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"C Language"} prize={200} />
+                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"Mathematics"} prize={200} />
+                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"English"} prize={200} />
+                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"Fundamental Of Information Technology"} prize={200} />
+                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"English"} prize={200} />
+                <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"English"} prize={200} />
             </div>
         </div>
     )

@@ -9,8 +9,9 @@ const Footer = () => {
             <div className='p-1 px-2 rounded-lg bg-[#FFFFFF] shadow-[-3px_4px_3px_rgba(0,0,0,0.25)]'>Contact Us</div>
             <div className='p-1 px-2 rounded-lg bg-[#FFFFFF] shadow-[-3px_4px_3px_rgba(0,0,0,0.25)]'>About Us</div>
         </div>
-        <div className="getMeAChai p-1 px-2 rounded-lg bg-[#FFB3B3] shadow-[-3px_4px_3px_rgba(0,0,0,0.25)]">
+        <div className="getMeAChai p-1 px-2 flex rounded-lg gap-2 bg-[#FFB3B3] shadow-[-3px_4px_3px_rgba(0,0,0,0.25)]">
             Get Me A Chai
+            <img className='size-6 rounded-2xl self-center' src="/tea.gif" alt="cup" />
         </div>
       </footer>
     </div>

@@ -1,10 +1,11 @@
 import React from 'react'
 
-const Card = ({ image, profilePicture, bookName }) => {
+const Card = ({ image, profilePicture, bookName, prize }) => {
     return (
         <div>
-            <div className="card1 w-fit min-w-40.5 p-1 flex-col rounded-xl bg-[#FFFFFF] shadow-[-3px_3px_3px_rgba(0,0,0,0.25)]">
+            <div className="card1 w-fit min-w-40.5 p-1 flex-col rounded-xl bg-[#FFFFFF] shadow-[-3px_3px_3px_rgba(0,0,0,0.25)] relative">
                 <div>
+                    <span className='p-0.5 absolute bottom-6 bg-[#FFB9B9] rounded-sm'>₹{prize}</span>
                     <img className="size-40 rounded-sm" src={image} alt="bookimage" />
                 </div>
                 <div className='flex items-center gap-1'>
