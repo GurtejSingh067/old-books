@@ -20,12 +20,12 @@ const Main = () => {
                 <Category name={"Web Development"}/>
                 <Category name={"App Development"}/>
                 <Category name={"BCA"}/>
-                <Category name={"BCA"}/>
-                <Category name={"BCA"}/>
-                <Category name={"BCA"}/>
-                <Category name={"BCA"}/>
-                <Category name={"BCA"}/>
-                <Category name={"BCA"}/>
+                <Category name={"BSC"}/>
+                <Category name={"BA"}/>
+                <Category name={"Colleges"}/>
+                <Category name={"University"}/>
+                <Category name={"10th"}/>
+                <Category name={"12th"}/>
             </div>
         </div>
     )

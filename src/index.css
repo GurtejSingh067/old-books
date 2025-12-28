@@ -2,6 +2,11 @@
 
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-mobile: 415px;
+  --breakpoint-xs: 503px;
+}
+
 html {
   font-family: "Righteous", cursive;
 }
