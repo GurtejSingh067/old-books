@@ -10,9 +10,9 @@ const Navbar = () => {
         <div className="search h-9.5 p-2 rounded-full flex justify-between bg-[#E9E9F1] shadow-[-3px_4px_3px_rgba(0,0,0,0.25)] sm:w-68 md:w-88">
           <div className="flex gap-2 self-center">
             <img className="size-5 self-center" src="/search.svg" alt="search" />
-            <span className="hidden w-auto self-center opacity-30">Search</span>
+            <span className="hidden w-20 self-center opacity-30 smsc2:inline">Search</span>
           </div>
-          <img className="hidden size-5 self-center" src="/filter.svg" alt="filter" />
+          <img className="hidden size-5 self-center smsc2:inline" src="/filter.svg" alt="filter" />
         </div>
         <div className="buttons flex gap-2">
           <button className="w-20 h-9.5 bg-[#EBEBF3] rounded-3xl shadow-[-3px_4px_3px_rgba(0,0,0,0.25)]">Sign In</button>
