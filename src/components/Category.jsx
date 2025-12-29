@@ -4,7 +4,10 @@ import Card from './Card'
 const Category = ({ name }) => {
     return (
         <div className='flex-col'>
-            <div className='text-2xl'>{name}</div>
+            <div className='flex justify-between'>
+                <div className='text-2xl'>{name}</div>
+                <div className='self-end'>See all</div>
+            </div>
             <div className='flex gap-1 overflow-auto no-scrollbar'>
                 <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"React JS"} prize={200} />
                 <Card image={"/download.jfif"} profilePicture={"/profile.svg"} bookName={"C Language"} prize={200} />
